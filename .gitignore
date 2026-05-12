@@ -1,0 +1,24 @@
+# 环境变量（千万不要上传！非常重要）
+.env
+.env.local
+.env.*
+
+# Node.js 依赖
+node_modules/
+dist/
+
+# 数据库文件
+arc.db
+relay
+*.db
+*.sqlite
+
+# 日志文件
+*.log
+logs/
+
+# 系统和 IDE 文件
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db
